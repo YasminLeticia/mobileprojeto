@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tela de Login(Academia)</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_senha">Senha</string>
+    <string name="txt_button_entrar">Entrar</string>
+    <string name="txt_tela_cadastro">Não possui cadastro?Cadastre-se!</string>
+    <string name="hint_name">Digite seu nome completo</string>
+    <string name="text_CPF">CPF</string>
+    <string name="hint_Senha">Senha</string>
+    <string name="hint_senhaConfirmar">Confirmar senha</string>
+    <string name="text_Cadastrar">Cadastrar</string>
+    <string name="text_bemvindo">Bem-Vindo</string>
+    <string name="text_procurar"> Precisa de ajuda? </string>
+    <string name="text_academia">ACADEMIAS PROXIMAS</string>
+    <string name="text_avaliaçao">AVALIAÇÃO FISICA</string>
+    <string name="hint_endereço">ENDEREÇO</string>
+</resources>

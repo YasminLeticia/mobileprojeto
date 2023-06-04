@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/Blue"
+    tools:context=".TelaCadastro">
+
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:layout_width="127dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cadastro"
+        android:layout_width="211dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="Faça seu Cadastro!"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagem" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/name"
+        android:layout_width="336dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/background_edittext"
+        android:hint="@string/hint_name"
+        android:maxLines="2"
+        android:padding="15dp"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cadastro" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/cpf"
+        android:layout_width="336dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/background_edittext"
+        android:hint="@string/text_CPF"
+        android:inputType="number"
+        android:maxLines="2"
+        android:padding="15dp"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/senha"
+        app:layout_constraintTop_toBottomOf="@id/name" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/senha"
+        android:layout_width="336dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/background_edittext"
+        android:hint="@string/hint_Senha"
+        android:inputType="numberPassword"
+        android:maxLines="2"
+        android:padding="15dp"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/editSenha"
+        app:layout_constraintTop_toBottomOf="@+id/cpf" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editSenha"
+        android:layout_width="336dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/background_edittext"
+        android:hint="@string/hint_senhaConfirmar"
+        android:inputType="numberPassword"
+        android:maxLines="2"
+        android:padding="15dp"
+        android:textSize="18sp"
+
+        app:layout_constraintTop_toBottomOf="@+id/senha"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="124dp"
+        android:background="@drawable/background_button_selector"
+        android:enabled="true"
+        android:padding="15dp"
+        android:text="@string/text_Cadastrar"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.795"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editSenha" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:rotationX="500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cadastrar"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

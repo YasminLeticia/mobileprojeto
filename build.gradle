@@ -1,0 +1,11 @@
+buildscript {
+    dependências {
+    }
+} // Arquivo de compilação de nível superior onde você pode adicionar opções de configuração comuns a todos os subprojetos/módulos.
+
+plugins {
+    id 'com.android.application' version '7.4.2' apply false
+    id 'com.android.library' version '7.4.2' apply false
+    id 'org.jetbrains.kotlin.android' version '1.8.0' apply false
+
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "143742050633",
+    "project_id": "tela-de-login-e0693",
+    "storage_bucket": "tela-de-login-e0693.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143742050633:android:564a42bd5b96779351fa98",
+        "android_client_info": {
+          "package_name": "com.example.teladeloginacademia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143742050633-qigr5vhj7ohe7jlg9rjm8a6cud8sdeum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD86Op8Z7zSk3rhr2iro7Mi4AplDO-t7iE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143742050633-qigr5vhj7ohe7jlg9rjm8a6cud8sdeum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
